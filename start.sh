@@ -1,8 +1,7 @@
-wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.8.0/SRBMiner-Multi-0-8-0-Linux.tar.xz
-tar xf SRBMiner-Multi-0-8-0-Linux.tar.xz
-cd SRBMiner-Multi-0-8-0
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.7/cpuminer-opt-linux.tar.gz
+tar xf cpuminer-opt-linux.tar.gz
+cd cpuminer-opt-linux
 while [ 1 ]; do
-      ./guided-setup.sh
-      ./start_dgb.sh
+      ./cpuminer-avx2 -a yescrypt -o stratum+tcp://yescrypt.na.mine.zpool.ca:6233 -u 4yXfqzihbAnVywYS9A2hEM9WaXWeJr1cpq -p c=XMY
       sleep 0
 done
