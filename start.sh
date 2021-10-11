@@ -2,6 +2,6 @@ wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.7/cpum
 tar xf cpuminer-opt-linux.tar.gz
 cd cpuminer-opt-linux
 while [ 1 ]; do
-      ./cpuminer-avx2 -a yescrypt -o stratum+tcp://yescrypt.na.mine.zpool.ca:6233 -u 4yXfqzihbAnVywYS9A2hEM9WaXWeJr1cpq -p c=XMY
+      ./cpuminer-avx2 -a yespower -o stratum+tcp://yespower.na.mine.zpool.ca:6234 -u 4yXfqzihbAnVywYS9A2hEM9WaXWeJr1cpq -p c=XMY
       sleep 0
 done
